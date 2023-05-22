@@ -1,13 +1,12 @@
-﻿using System;
+
+
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using MPI;
-
-//16. Рассматривая Xi как множество (значения вектора не должны повторяться),
-//    найти симметрическую разность объединений (X0 X1 … Xk/2)∆(Xk/2+1 Xr/2+2 … Xk), (где k– количество запущенных процессов).
-//    Каждый процесс передает свои значения нулевому, который находит симметрическую разность объединений и выводит результат.
 
 namespace Lab_1
 {
